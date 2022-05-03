@@ -49,7 +49,7 @@ Text Editor is available under the MIT License.
 
 ## Deployed Link
 
-jate-text-editor-2022.herokuapp.com/
+https://jate-text-editor-2022.herokuapp.com/
 
 ## How to Contribute
 
