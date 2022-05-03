@@ -19,17 +19,25 @@ JATE is a text editor that runs in the browser. Its a single page application th
 
 This program can be run through a browser using the link to the the deployed application. Alternatively, to run this application locally you will need to:
 
-- Clone this repository to receive all of the files
+- Clone this repository to receive all of the files. 
 
-- Run "npm install" in the command line of your terminal to set up all of the dependencies
+- Run "npm install" in the command line of your terminal to set up all of the dependencies.
 
-- Run "npm start" to start the application's connection
+- Run "npm start" to start the backend and serve the client.
 
-- Go to the url of the application (http//:localhost:3001) to begin using it
+- Go to the url of the application (http//:localhost:3001) to begin using it.
 
 ## Usage
 
+Use the deployed URL to open the deployed application. 
 
+![JATE](https://github.com/marycpriyanka/Text-Editor/blob/main/assets/screenshots/JATE.png)
+
+Type any code snippet or notes in the editor. The content will be saved in the IndexedDB when the window is unfocused. When you reopen the text editor after closing it, the content in the text editor will be retrieved from the IndexedDB. 
+
+If the Install button is clicked, the web application will be downloaded as an icon in your desktop.
+
+The application works without an internet connection.
 
 ##  Technologies used
 
